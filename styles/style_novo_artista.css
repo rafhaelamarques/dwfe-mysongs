@@ -31,6 +31,13 @@
     margin: 0;
 }
 
+main,
+nav {
+    margin: auto;
+    width: 60%;
+    display: block;
+}
+
 header,
 main {
     padding: 16px;
@@ -47,59 +54,56 @@ h2 {
     margin-left: 15px;
 }
 
-p,
-h3 {
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-a,
-i {
-    cursor: pointer;
-}
-
-ul {
-    list-style: none;
-}
-
-li:hover {
-    background-color: #eee;
-    cursor: pointer;
-}
-
-#popup {
-    display: none;
-    position: fixed;
-    right: 15px;
-    border: 1px solid #000;
-    border-radius: 6px;
-    z-index: 9;
-    background-color: #fff;
-    max-width: 300px;
-    padding: 10px;
-}
-
-.item-popup {
-    text-decoration: none;
-    color: #000;
-}
-
-.more-icon {
-    float: right;
-}
-
-.artist-img {
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.album-img {
-    height: 150px;
+legend {
     display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+input[type="text"] {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #000;
+    border-style: solid;
+    margin-left: 15px;
+}
+
+input[type="checkbox"] {
+    margin-left: 50px;
+    background-color: grey;
+}
+
+button {
+    border: 2px solid #000;
+    border-radius: 2px;
+    background: #838383;
+    width: 121px;
+    height: 35px;
+    margin-right: 40px;
     cursor: pointer;
-    margin: 4px;
+    font-weight: bold;
+}
+
+.artista,
+.genero {
+    border: #000 2px solid;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.bio {
+    border: none;
+    border-radius: 6px;
+    background-color: #d8d8d8;
+    width: 100%;
+    height: 120px;
+    resize: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.foto {
+    display: block;
+    margin-bottom: 30px;
 }

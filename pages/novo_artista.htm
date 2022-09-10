@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>MySongs</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/style_novo_artista.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <a href="/pages/artista.htm" alt="back"><i class="material-icons">arrow_back</i></a>
+        <h2>Novo Artista</h2>
+    </header>
+    <main>
+        <fieldset class="artista">
+            <legend>Artista</legend>
+            <input name="nome" type="text" placeholder="Nome Completo">
+            <input name="nome-art" type="text" placeholder="Nome Artístico">
+            <input name="nasc" type="text" placeholder="Data de Nascimento" onfocus="(this.type='date')">
+            <input name="genero" type="text" list="genero" placeholder="Gênero">
+        </fieldset>
+        <fieldset class="genero">
+            <legend>Gêneros Musicais</legend>
+            <input type="checkbox" value="rock" name="genero-musical" /> Rock
+            <input type="checkbox" value="mpb" name="genero-musical" /> MPB
+            <input type="checkbox" value="folk" name="genero-musical" /> Folk
+            <input type="checkbox" value="indie" name="genero-musical" /> Indie
+            <input type="checkbox" value="pop" name="genero-musical" /> Pop
+            <input type="checkbox" value="inst" name="genero-musical" /> Instrumental
+        </fieldset>
+        <textarea class="bio" placeholder="Biografia"></textarea>
+        <label class="foto">
+            Foto
+            <input type="file" />
+        </label>
+    </main>
+    <nav>
+        <button>Salvar</button>
+        <button>Cancelar</button>
+    </nav>
+
+    <!--Listas-->
+    <datalist id="genero">
+        <option value="Feminino">
+        <option value="Masculino">
+        <option value="Não binário">
+        <option value="Não especificar"></option>
+    </datalist>
+</body>
+
+</html>
