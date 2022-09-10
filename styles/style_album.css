@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    border: 0; padding: 0; margin: 0;
+}
+
+h2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h3 {
+    margin-bottom:30px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+header{
+    background-color: grey;
+    box-shadow: 0 1px 4px #000;
+}
+
+header, div{
+    padding: 16px;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 150px;
+}
+
+audio{
+    display: block;
+    margin: 30px;
+}
+
+.close-icon{
+    float: right;
+}
